@@ -1,0 +1,9 @@
+requests
+fastapi[standard]
+pypdf
+scikit-learn
+nltk
+scipy
+python-docx
+boto3
+python-dotenv

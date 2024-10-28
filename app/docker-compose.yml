@@ -1,0 +1,8 @@
+services:
+  resume-jd-matcher:
+    image: resume-jd-matcher
+    build:
+      context: ./
+      dockerfile: build.dockerfile
+    ports:
+      - "8080:80"
